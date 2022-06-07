@@ -1,0 +1,5 @@
+services:
+  snort:
+    image: hsrnetwork/snort:latest
+    hostname: snort.example.com
+    restart: unless-stopped
